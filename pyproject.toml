@@ -1,0 +1,15 @@
+[project]
+name = "rag-qa"
+version = "0.1.0"
+description = "RAG-based document question-answering system."
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.68.0",
+    "chromadb>=0.5.0",
+    "pdfplumber>=0.11.0",
+    "streamlit>=1.35.0",
+    "pydantic-settings>=2.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
